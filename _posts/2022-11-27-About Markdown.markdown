@@ -5,7 +5,7 @@ Markdown은 텍스트 기반의 마크업언어로 특수기호와 문자를 이
 + Github
 + jekyll
 + reddit
-+ 네이버 밴드
++ 네이버 밴드 
 
 등이 있다. 본 수업에서 학부생들은 Markdown문법을 이용해 Gitblog를 제작하는 건 물론 Markdown의 문법 사용을 익혀 후에 있을 사용을 도모한다.   
 
