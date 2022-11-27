@@ -2,7 +2,6 @@
 Markdown은 텍스트 기반의 마크업언어로 특수기호와 문자를 이용한 매우 간단한
 문법을 이용해 웹에서 보다 빠르고 직관적으로 컨텐츠를 작성할 수 있다.   
 마크다운을 사용하는 웹서비스로는   
-
 + Github
 + jekyll
 + reddit
@@ -138,13 +137,13 @@ Shift + . ```>``` 꺽쇠문자를 이용합니다.
 
 * `<pre><code>[코드]</code></pre>`코드작성
 
-```
-<pre>   
-<code>   
-print("Hello, World!")
-</code>   
-</pre>   
-```
+    ```
+    <pre>   
+    <code>   
+    print("Hello, World!")
+    </code>   
+    </pre>   
+    ```
 
 <pre>
 <code>
