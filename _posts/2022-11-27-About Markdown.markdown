@@ -4,6 +4,7 @@ Markdown은 텍스트 기반의 마크업언어로 특수기호와 문자를 이
 마크다운을 사용하는 웹서비스로는   
 + Github
 + jekyll
++ Discord
 + reddit
 + 네이버 밴드 
 
