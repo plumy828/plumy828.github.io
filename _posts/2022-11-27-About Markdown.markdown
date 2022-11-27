@@ -10,7 +10,7 @@ Markdown은 텍스트 기반의 마크업언어로 특수기호와 문자를 이
 등이 있다. 본 수업에서 학부생들은 Markdown문법을 이용해 Gitblog를 제작하는 건 물론 Markdown의 문법 사용을 익혀 후에 있을 사용을 도모한다.   
 
 2. 마크다운 사용법
-=================   
+==================
 2.1. 헤더(Headers)
 ------------------   
 큰제목을 쓰려면 제목 밑줄에 ```=```를 글 길이만큼 작성합니다.
@@ -142,13 +142,13 @@ Markdown은 텍스트 기반의 마크업언어로 특수기호와 문자를 이
 
 * `<pre><code>[코드]</code></pre>`코드작성
 
-```
-<pre>
-<code>
-print("Hello, World!")
-</code>
-</pre>
-```
+    ```
+    <pre>   
+    <code>   
+    print("Hello, World!")
+    </code>   
+    </pre>   
+    ```
 
 <pre>
 <code>
@@ -156,15 +156,15 @@ print("Hello, World!")
 </code>
 </pre>
 
-* 코드블럭코드("```") 사용시   
+* 코드블럭코드("\```") 사용시   
 
-<pre>
-<code>
-```
-print("Hello, World!")
-```
-</code>
-</pre>
+    <pre>   
+    <code>  
+    ```    
+    print("Hello, World!")   
+    ```   
+    </code>   
+    </pre>   
 
 ```
 print("Hello, World!")
