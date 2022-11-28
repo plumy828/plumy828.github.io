@@ -24,14 +24,16 @@
 `_config.yml` 이 파일이 매우 중요하다. 테마를 적용하거나 블로그의 모든 기능을 추가할 때 이 파일에서 수정을 먼저 해야하기 때문이다.   
 기본적으로 바꿔준 부분은   
 
-   # Site Settings
-   title                    : "Python Sandwich"
-   title_separator          : "-"
-   name                     : "Jeong Taek"
-   description              : "An amazing website."
-   url                      : "https://plumy828.github.io" 
-   repository               : "plumy828/plumy828.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-   # breadcrumbs            : false # true, false (default)
+   ```
+   # Site Settings   
+   title                    : "Python Sandwich"   
+   title_separator          : "-"   
+   name                     : "Jeong Taek"   
+   description              : "An amazing website."   
+   url                      : "https://plumy828.github.io"   
+   repository               : "plumy828/plumy828.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"   
+   # breadcrumbs            : false # true, false (default)   
+   ```   
 
 이 부분을 수정해주었다. 이름과 url, repository를 자신의 저장소에 맞게 고쳐주었다.   
 
@@ -42,16 +44,17 @@
 글의 제목을 `=======`와 `------`로 작성하려 했는데   
 `=====` 이 경우 잘 작성됐지만 `-----` 이 경우가 리스트와 겹쳐서 잘 작동하지 않아 `==`와 `--`로 작성하려는 계획은 `#`와 `##`을 사용하여 작성하였다.   
 `#`으로 작성하니 문제 없이 잘 작동하는 모습이었다.   
-또한 순서있는 리스트로 글의 순서를 1. 2. 2.1 로 작성히려 했는데 `===` 문제와 맞물려 1. 부분이 제대로 작동하지 못하고 2. 부분이 1. 로 치환되는 오류가 발생하였다.   
+또한 순서있는 리스트로 글의 순서를 1. 2. 2.1 로 작성하려 했는데 `===` 문제와 맞물려 1. 부분이 제대로 작동하지 못하고 2. 부분이 1. 로 치환되는 오류가 발생하였다.   
 이 부분은 `#`을 사용하니 모두 해결되었다.   
-전체적인 글의 순서는   
+전체적인 글의 순서는
 * 마크다운의 사용처
 + 마크다운의 사용법
    + 제목
    + 블럭인용
    + 목록(순서있는, 순서없는)
    + 코드블럭(들여쓰기, 코드 이용)
-   + 기타 사용법(하이퍼링크, 기울임체 및 볼드체)
+   + 기타 사용법(하이퍼링크, 기울임체 및 볼드체)   
+
 를 다루기로 계획했다.   
 대부분의 경우 큰 문제는 없었지만 **코드블럭** 과 **기타 사용법**이 문제였다.   
 코드블럭의 경우 코드블럭을 보여주는 코드블럭을 작성해야 하는데 처음 해본 방법이 그냥 들여쓰기를 쓰는 법이었고 해결한 방법이 코드블럭코드와 `<pre><code>{코드}</code></pre>`를 사용하는 법이었다.   
