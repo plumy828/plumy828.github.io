@@ -76,4 +76,69 @@ Markdown에 관련한 첫번째 글을 제작하며 **코드블럭코드**와 **
 중간중간 사소한 문제가 있어 add, commit, push를 미친듯이 반복했다.   
 
 ## 3. 댓글 기능 추가 및 Google analytics 적용
-댓글 기능을 추가하기 위해 처음엔 수업 때 배운대로 
+댓글 기능을 추가하기 위해 처음엔 수업 때 배운대로 **disqus**를 먼저 이용했다.   
+수업 때는 disqus에 가입해 `_config.yml`파일에   
+```
+comment:   
+   provier:    "disqus"   
+   disqus:   
+      shortname:   "plumy828-github-io"
+
+defaults:   
+   values:   
+      comments: true
+```   
+를 적도록 알려줬었는데 강의자 분의 테마가 나와 다른 부분도 있었고 왜인지 모르겠지만 계속 적용이 안되는 오류가 발생하여 결국 **utterance**를 사용하기로 했다.   
+**utterance**는 **disqus**보다 오히려 편했다. Github 앱으로 되어있어 설치만 하면 됐고 추가해야할 부분도 `_config.yml`에   
+```
+comments:   
+   provider       : "utterances"
+```
+정도만 추가하면 됐었다. 그리고 친구가 알려주기로 disqus는 생각보다 오류가 잘나 utterance를 쓰는 것이 더 효율적이라고 했다.   
+하지만 그럼에도 불구하고 **utterance**에서도 오류가 나 다시 한번 repo를 갈아엎고 적용했더니 작동했다.   
+제작자의 사이트에 `불필요한 파일 제거`라는 항목이 있어서 그거대로 따라했더니 코드 의존성이 꼬인 것 같았다.   
+댓글 기능을 성공적으로 추가하고 시험 댓글을 단 뒤 **Google analytics**를 적용하기로 했다.   
+생각보다 **Google analytics**는 더더욱 간단했다.   
+그냥 `_config.yml`코드에   
+```
+# Analytics   
+analytics:   
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"   
+  google:   
+    tracking_id          : "G-CBR7JH1CSC"   
+    anonymize_ip         : false # true, false (default)
+```   
+정도만 추가하면 됐다.   
+Google analytics를 들어가니 자동으로 구글 계정을 선택하라는 안내가 나왔고 시키는대로 한뒤 본 블로그의 **Google Analytics란?** 글에 나온대로 했더니 간단하게 작동했다.   
+이 과정에서 주목할 부분은 `tracking_id`였는데 간단하게 스트림과 웹사이트 주소를 적어주면 자동으로 주어지는 토큰과 같은 번호였는데 크게 어려운 부분이 없었다.   
+
+## 4. favicon 추가하기
+일단 `favicon`을 처음 들어본 작성자에겐 검색이 우선이었다.   
+**favicon**이란 **favorite icon**의 줄임말로 웹사이트 또는 웹 페이지를 대표하기 위해 웹브라우저에서 사용되는 16 * 16 픽셀의 작은 이미지라고 한다.   
+깃허브에서   
+![capture3](https://user-images.githubusercontent.com/52962027/204323445-68c0c8de-cc9a-4113-9726-8a2e88fa64aa.PNG)   
+이것과 같은 뜻이다.   
+이런 부분에선 특별한 favicon을 설정하고 싶어 theme 제작자가   
+`./includes/head/custom.html`에서 알려준 사이트   
+<https://realfavicongenerator.net/>
+를 먼저 가보았다. 하지만 여긴 로컬로 다운받은 이미지를 favicon으로 전환시켜주는 사이트라 일단은 이미지를 찾기로 했다.   
+<https://www.flaticon.com/>이라는 많은 사람들이 추천해주는 favicon 이미지 검색 사이트가 있길래 이곳을 이용해 내 테마와 맞는 **contrast**와 맞는 이미지를 검색했다.   
+음양무늬가 있길래 내 테마와 어울릴거라 생각해 다운받고 위의 사이트에서 전환했다.   
+전환하니 이런 화면으로 바뀌면서   
+![capture4](https://user-images.githubusercontent.com/52962027/204324986-47ff4599-3e3e-45f3-ab65-f065dd871b20.PNG)   
+지시사항이 나왔다.   
+시키는 대로 붙여넣기 하고 push 후 실행해봤지만 적용되지 않았다.   
+이유가 있을까 싶어 제작자가 답변해준 글을 찾아보았다. 마침 나와 같은 문제를 겪는 사람이 질문을 했고 거기서 해답을 찾아냈다.   
+위의 코드는 보편적인 경우고 나 같은 경우는 따로 폴더를 만들어 그 안에 이미지를 저장했기에   
+```
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.ico/apple-touch-icon.png">   
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.ico/favicon-32x32.png">   
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.ico/favicon-16x16.png">
+```   
+위처럼 `href="`부분을 내가 해당하는 경로로 바꿔줘야만 이미지를 찾을 수 있던 것이었다.   
+실제로 이 부분을 수정하고나니 적용되었다.   
+
+## 5. 글을 마치며
+생각보다 빨리 끝날줄 알았던 Gitblog 과제는 새벽까지 시간을 써야할 정도로 시간이 오래걸렸으며 원래도 오래걸리는 과제에 작성자의 미숙한 판단과 부족한 지식으로 인해 몇배는 더 걸린듯 하다.   
+하지만 이번 프로젝트를 통해 Markdown의 문법을 정말 확실히 익혔으며 Gitblog를 포함한 Git과 Github의 사용법을 다시한번 확실히 할 수 있었던 프로젝트였다.   
+내 개인 역량을 시험 및 향상시킬수 있었던 좋은 순간이었으며 피곤과 비례해 내 지식이 늘어난 것에 대한 알 수 없는 감정을 느끼며 글을 마친다.
