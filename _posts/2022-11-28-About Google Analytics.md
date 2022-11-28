@@ -28,7 +28,7 @@ tags:
 접속하면 먼저 가입을 하라고 뜰텐데 시키는 대로 다 해줍시다. 아주 간단하니 걱정하실 필요 없습니다.   
 하고 나면 이제 회원가입을 하고 관리할 사이트를 설정해야 합니다.   
 
-![first](./img/캡처2.PNG)   
+![캡처2](https://user-images.githubusercontent.com/52962027/204293120-a0cbdbe0-56e6-4837-b4ca-8463afc2c418.PNG)   
 
 사진대로 다 해주면   
 
@@ -36,20 +36,20 @@ tags:
 
 속성이름이 뜹니다. 자신의 깃허브 repo 이름을 넣어주면   
 
-![third](./img/캡처3.PNG)   
+![캡처3](https://user-images.githubusercontent.com/52962027/204293209-12a7b289-b3e2-4fb3-9d19-4519ec2a1203.PNG)   
 
 체크박스가 뜨는데 2개 있습니다. 내려서 꼭 체크해주면   
 
-![fourth](./img/캡처4.PNG)   
+![캡처4](https://user-images.githubusercontent.com/52962027/204293313-add3eaca-067b-4d3a-9714-c74c83e80b79.PNG)   
 
 축하합니다! 당신의 Google Analytics 계정이 생겼습니다.   
 이제 관리할 사이트를 설정해줍시다.   
 
-![fifth](./img/캡처5.PNG)   
+![캡처5](https://user-images.githubusercontent.com/52962027/204293393-9ef2e61f-8634-4ecb-8138-02ee2105cca8.PNG)   
 
 웹 버튼을 누르면 이런 화면이 뜨는데 자신이 관리할 사이트의 주소를 적어줍시다.   
 
-![sixth](./img/캡처6.PNG)   
+![캡처6](https://user-images.githubusercontent.com/52962027/204293464-d481a523-ae87-4272-806d-596d290ee4b7.PNG)   
 
 그러면 이런 화면이 뜨는데 저 **측정 ID** 를 복사해줍니다.   
 그러고 각자의 테마에 맞는 부분에 Google Analytics를 사용할 부분을 작성해줍시다.   
@@ -64,7 +64,7 @@ tags:
 
 이 부분에 `provider` 부분과 `tracking_id` 부분을 수정해주시면 이제   
 
-![seventh](./img/캡처7.PNG)   
+![캡처7](https://user-images.githubusercontent.com/52962027/204293512-67992b32-129f-473c-bc3a-5b8a72d2b4c9.PNG)    
 
 이제 작동하는 걸 볼 수 있습니다.   
 
