@@ -32,7 +32,7 @@ tags:
 
 사진대로 다 해주면   
 
-![second](./img/캡처.PNG)   
+![캡처](https://user-images.githubusercontent.com/52962027/204292601-8f3c6325-0003-4e68-b1ca-23c4ed5f35e9.PNG)   
 
 속성이름이 뜹니다. 자신의 깃허브 repo 이름을 넣어주면   
 
