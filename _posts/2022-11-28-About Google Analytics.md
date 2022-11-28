@@ -26,20 +26,20 @@ tags:
 일단 사이트에 접속을 합니다.   
 <https://analytics.google.com>   
 접속하면 먼저 가입을 하라고 뜰텐데 시키는 대로 다 해줍시다. 아주 간단하니 걱정하실 필요 없습니다.   
-하고 나면 이제 회원가입을 하고 관리할 사이트를 설정해야 합니다.
-![first](./img/캡쳐1.png)   
+하고 나면 이제 회원가입을 하고 관리할 사이트를 설정해야 합니다.   
+![first](/img/캡쳐1.png)   
 사진대로 다 해주면   
-![second](./img/캡쳐.png)   
+![second](/img/캡쳐.png)   
 속성이름이 뜹니다. 자신의 깃허브 repo 이름을 넣어주면   
-![third](./img/캡쳐3.png)   
+![third](/img/캡쳐3.png)   
 체크박스가 뜨는데 2개 있습니다. 내려서 꼭 체크해주면   
-![fourth](./img/캡쳐4.png)   
+![fourth](/img/캡쳐4.png)   
 축하합니다! 당신의 Google Analytics 계정이 생겼습니다.   
 이제 관리할 사이트를 설정해줍시다.   
-![fifth](./img/캡쳐5.png)   
+![fifth](/img/캡쳐5.png)   
 웹 버튼을 누르면 이런 화면이 뜨는데 자신이 관리할 사이트의 주소를 적어줍시다.   
-![sixth](./img/캡쳐6.png)   
-그러면 이런 화면이 뜨는데 저 `측정 ID`를 복사해줍니다.   
+![sixth](/img/캡쳐6.png)   
+그러면 이런 화면이 뜨는데 저 **측정 ID** 를 복사해줍니다.   
 그러고 각자의 테마에 맞는 부분에 Google Analytics를 사용할 부분을 작성해줍시다.   
 본 블로그는 `minimal-mistakes`테마를 사용중이기에 _config.yml 파일에 수정해줍니다.   
 
@@ -51,7 +51,7 @@ tags:
             anonymize_ip         : false # true, false (default)
 
 이 부분에 `provider` 부분과 `tracking_id` 부분을 수정해주시면 이제   
-![seventh](./img/캡쳐7.png)   
+![seventh](/img/캡쳐7.png)   
 이제 작동하는 걸 볼 수 있습니다.   
 
 # 3. 결론
