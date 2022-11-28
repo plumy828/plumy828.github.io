@@ -194,17 +194,16 @@ public class Test {
 ```   
 
 ## 2.5. 기타 사용법  
-* 이외에도 링크를 달거나
-    
-    ```
-    [Title][id]   
-    [id]: URL "Optional Title here"   
+* 이외에도 링크를 달거나   
+```
+[Title][id]   
+[id]: URL "Optional Title here"   
 
-    // 사용한 코드   
-    [Naver][naverlink]
+// 사용한 코드   
+Link: [Naver][naverlink]
 
-    [naverlink]: https://naver.com "Go Naver"
-    ```   
+[naverlink]: https://naver.com "Go Naver"
+```   
 
 Link: [Naver][naverlink]
 
