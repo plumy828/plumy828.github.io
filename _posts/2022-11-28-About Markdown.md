@@ -3,7 +3,7 @@ title: "마크다운이란?"
 categories:
     - Git
 tags:
-    - [Git, Github]
+    - [Git, Github, Markdown]
 ---
 
 # 1. 마크다운이란?

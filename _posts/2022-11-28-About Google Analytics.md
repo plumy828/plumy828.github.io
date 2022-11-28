@@ -3,7 +3,7 @@ title: "Google Analytics란?"
 categories:
     - Git
 tags:
-    - [Git, Github]
+    - [Git, Github, Google]
 ---
 
 # 1. Google Analytics란?
@@ -16,6 +16,7 @@ tags:
 * 실시간으로 데이터를 수집하기 때문에 원하는 기간의 실적을 확인하며 보고서를 만들 수 있습니다.   
 이렇듯 많은 강점을 지닌 Google Analytics는 많은 사람들에게 쓰이고 있습니다.   
 실제로도 2021년 1월 기준 전체웹사이트의 54.6%에서 사용되고 있다고 합니다.   
+   
 # 2. 적용하는 방법은?
 뭐하는 친구인지 알았으니 이제 적용을 해야겠죠.   
 일단 사이트에 접속을 합니다.   
