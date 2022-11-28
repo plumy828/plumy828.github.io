@@ -31,8 +31,7 @@
    name                     : "Jeong Taek"   
    description              : "An amazing website."   
    url                      : "https://plumy828.github.io"   
-   repository               : "plumy828/plumy828.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"   
-   # breadcrumbs            : false # true, false (default)   
+   repository               : "plumy828/plumy828.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"    
    ```   
 
 이 부분을 수정해주었다. 이름과 url, repository를 자신의 저장소에 맞게 고쳐주었다.   
@@ -62,4 +61,19 @@
 `<pre><code>{코드}</code></pre>`를 설명할 땐 반대로 적용해 코드블럭코드 안에 설명하려는 코드를 넣어서 성공했다.   
 그 다음 `깃허브에선 코드블럭코드 사용시점에 언어를 넣어서 강조할 수 있다`   
 이 부분을 설명할 때는 의외로 오류가 발생하지 않아 깔끔하게 작성할 수 있었다.   
-하이퍼링크를 설명할 때도 오류가 있었는데 코
+하이퍼링크를 설명할 때도 오류가 있었는데 `//사용한 코드` 부분에서 내가 이걸 썼다고 보여줘야 하는데 코드의 결과가 나오고 아래 결과 코드는 오히려 보여주려는 코드로 나와 서로 반대로 나오고 말았다.   
+이 경우 코드블럭코드를 사용해 해결했다.   
+그리고 사소한 문제였는데 `기울임 및 볼드체`를 설명할 때   
+결과도 안나오고 줄바꿈도 안되있었는데 `   ` 띄어쓰기 3번과 코드블럭코드를 이용하니 해결되었다.   
+Markdown에 관련한 첫번째 글을 제작하며 **코드블럭코드**와 **띄어쓰기 3번**의 덕을 정말 똑똑히 봤다. 만약 코드블럭코드와 띄어쓰기 3번이 없었더라면 지금 작성하고 있는 글을 포함해 나머지 2개의 글을 작성하지 못했을 것이다.   
+
+테마는 총 2번 변경하였다.   
+기본 -> minimal-mistakes -> scriptor -> minimal-mistakes   
+처음 테마를 변경했을 땐 fork하거나 다운로드 한게 아닌 더미 정보만 가져왔기 때문에 생긴건 그럴싸해도 정작 글이라든지 댓글과 같은 기능을 추가할 때 아무런 도움이 되지 않았다.   
+그래서 아직 미숙했던 난 테마 문제인가 싶어 다른 테마인 **scriptor**로 테마를 변경하게 되었고 이번엔 테마를 다운로드해 내 repo에 옮겨넣었다.   
+이번엔 수업 때 배운 `_layouts` 폴더라든지 `_includes` 폴더가 생겨 이번엔 되겠다 싶었지만 글 작성자의 Gitblog에 대한 지식 및 theme 변경의 미숙으로 인해 다시 한번 무리하게 **minimal-mistakes**로 변경하게 되었고 코드가 꼬인 나머지 결국 repo를 한번 초기화하게 되었다.   
+초기화를 한 뒤 이번엔 강의 슬라이드에 나온대로 처음 상태에서 **minimal-mistakes**를 다운받아 작동이 되는지 확인하고 처음과 같은 상태로 `_config.yml`파일을 수정하고 **minimal_mistakes** 제작자가 올린 사이트에서 테마 적용 방법이나 댓글 기능 추가, Google analytics 적용을 순차적으로 추가 및 수정했다.   
+중간중간 사소한 문제가 있어 add, commit, push를 미친듯이 반복했다.   
+
+## 3. 댓글 기능 추가 및 Google analytics 적용
+댓글 기능을 추가하기 위해 처음엔 수업 때 배운대로 
