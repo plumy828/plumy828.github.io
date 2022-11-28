@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "마크다운이란?"
-date: 2022-11-28 01:58:27 +0900
-categories: jekyll update
-comments: true
+categories:
+    - Git
+tags:
+    - [Git, Github]
 ---
 
 # 1. 마크다운이란?
