@@ -9,7 +9,7 @@ tags:
 # 1. Google Analytics란?
 [Google Analytics][googlelink]
 
-[googlelink]: https://analytics.google.com/analytics/web/#/p344040112/reports/intelligenthome 란 구글에서 무료로 제공하는 웹분석 서비스로 2005년 구글이 웹분석 전문업체인 어친(Urchin)사를 인수한 뒤 전세계적으로 가장 많이 사용되는 웹분석 솔루션입니다.   
+[googlelink]: https://analytics.google.com/analytics/web/#/p344040112/reports/intelligenthome   란 구글에서 무료로 제공하는 웹분석 서비스로 2005년 구글이 웹분석 전문업체인 어친(Urchin)사를 인수한 뒤 전세계적으로 가장 많이 사용되는 웹분석 솔루션입니다.   
 방문자들의 행동 데이터를 분석하고, 마케팅의 실적이나 웹사이트의 경험을 개선할 수 있도록 도와주는 도구입니다.   
 장점으로는 여러가지가 있는데   
 * 일단 가격적인 면에서 무료이기 때문에 매우 유리합니다.   
